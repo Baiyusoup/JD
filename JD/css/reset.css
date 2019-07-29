@@ -1,0 +1,64 @@
+/* 样式重置 */
+* {
+    margin: 0;
+	padding: 0;
+}
+ul,h1{
+    margin: 0;
+	padding: 0;
+}
+ul{
+	list-style-type:none;
+}
+img{
+	border: none;  
+	vertical-align: middle;/*垂直方向与文字对齐*/
+}
+a{
+	text-decoration: none;
+	color: #3c3c3c;
+}
+
+a:hover{
+	color: red !important;
+}
+
+em,i{
+	font-style: normal;
+}
+input{
+	margin: 0;
+	padding: 0;
+	outline-style: none;
+}
+button{
+	outline: none;
+}
+button:hover{
+	cursor: pointer;
+}
+
+body{
+	font:12px/1.5 Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif;
+	color: #3c3c3c;
+    background-color: #f0f3ef;
+    margin: 0;
+}
+
+.clearfix{
+	clear: both;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.w{
+	/*版心*/
+	width: 1190px;
+	margin: 0 auto;
+}
+.c4{
+	color: #f40;
+}

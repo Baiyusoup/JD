@@ -1,0 +1,79 @@
+/* 右边悬浮导航条 */
+.J-global-toolbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9990;
+    width: 0;
+    height: 100%;
+}
+
+.jdm-toolbar-tabs{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    border-right: 6px solid #7a6e6e;
+}
+
+.jdm-toolbar-tabs .jdm-toolbar{
+    width: 32px;
+    position: absolute;
+    top: 30%;
+    right: -5px;
+}
+
+.bar{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    margin: 2px 0;
+    text-align: center;
+    border-radius: 3px 0 0 3px;
+    background-color: #7a6e6e;
+}
+
+.bar span{
+    font-size: 20px;
+    color: rgb(223, 223, 223);
+}
+
+.btm{
+    position: absolute;
+    bottom: 0;
+    right: -8px;
+}
+
+.bar .tab-text {
+    display: inline-block;
+    position: absolute;
+    width: 60px;
+    height: 35px;
+    line-height: 35px;
+    z-index: -1;
+    left:33px;
+    top: 0px;
+
+    color: #fff;
+    text-align: center;
+    font-family: 微软雅黑;
+    background-color: #f10215;
+    border-radius: 3px 0 0 3px;
+    transition: left 0.3s;
+}
+
+/* 悬浮导航栏获得鼠标焦点 */
+.J-global-toolbar .bar:hover,
+.J-global-toolbar .bar:hover em{
+    cursor: pointer;
+}
+
+.J-global-toolbar .bar:hover{
+    background-color: #f10215;
+}
+
+.J-global-toolbar .bar:hover em{
+    left:-56px;
+}

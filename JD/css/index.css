@@ -1,0 +1,78 @@
+@import 'reset.css';
+
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/iconfont.eot');
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../font/iconfont.woff2') format('woff2'),
+        url('../font/iconfont.woff') format('woff'),
+        url('../font/iconfont.ttf') format('truetype'),
+        url('../font/iconfont.svg#iconfont') format('svg');
+}
+/*外部字体图标*/
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;/*非标准 抗锯齿*/
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* 顶部导航栏获得焦点 */
+.hoverdiplay:hover{
+    background-color: #fff;
+}
+
+/* 首屏左侧内容获得焦点背景颜色 */
+.cate-menu-item:hover{
+    background-color: #e3e4e5;
+}
+
+/* 顶部导航栏和首屏内容二级菜单显示 */
+.hoverdiplay:hover .cstmrlist ,
+.hoverdiplay:hover .mobile_pop ,
+.hoverdiplay:hover .myjdlist ,
+.hoverdiplay:hover .dropdown_layer,
+.hoverdiplay:hover .co-purchas-list,
+.fs-col1 .cate-menu-item:hover .J-popCtn{
+    display: block;
+}
+
+.c9{
+    color: #999;
+}
+
+/* 轮播图的小圆点 */
+.slider_control{
+    position: absolute;
+    top: 50%;
+    border-radius: 0;
+    width: 20px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #d9d9d9;
+    margin-top: -30px;
+    font-size: 20px;
+    z-index: 2;
+    border: none;
+}
+
+/* 箭头 */
+.slider_pre{
+    left: 0;
+}
+.slider_next{
+    right: 0;
+}
+
+
+.slider_indicators{
+    text-align: center;
+}
+
+.slider_indicators_btn{
+    display: inline-block;
+    border-radius: 50%;
+}
